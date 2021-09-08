@@ -1,0 +1,25 @@
+{
+  "name": "phox-pro/nebula-signal",
+  "description": "Routing library for Nebula framework",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Phox\\Nebula\\Signal\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "Tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "phox-pro/nebula-plasma": "dev-develop",
+    "phox-pro/nebula-http": "dev-develop"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3",
+    "vimeo/psalm": "^4.8"
+  },
+  "minimum-stability": "dev"
+}
